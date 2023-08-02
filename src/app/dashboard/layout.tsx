@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Prontera',
-  description: 'Create cloud data flows',
+  title: 'Prontera Dashboard',
+  description: 'Dashboard to access the flows',
 }
 
 export default function RootLayout({
