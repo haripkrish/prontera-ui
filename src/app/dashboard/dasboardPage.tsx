@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 
@@ -10,9 +11,7 @@ import Sidebar from './sidebar/sidebar';
 
 
 
-
 const HomePage: React.FC = () => {
-   
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
@@ -26,10 +25,11 @@ const HomePage: React.FC = () => {
                 <Toolbar>
                     <Header/>
                 </Toolbar>
+            
             </AppBar>
-
             {/* drawer */}
-            <Sidebar/>           
+            <Sidebar/>      
+
         </Box>
     )
 };
