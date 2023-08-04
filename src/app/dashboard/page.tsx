@@ -2,11 +2,9 @@
 import React from 'react';
 
 
-import { styled, useTheme } from '@mui/material/styles'
-import { AppBar, Box, CssBaseline, Toolbar, useMediaQuery } from '@mui/material'
+import { AppBar, Box, CssBaseline, Toolbar } from '@mui/material'
 
-import { drawerWidth } from '../store/constant'
-import Header from './header/headerPage';
+import Header from './header/headerSection';
 import Sidebar from './sidebar/sidebar';
 
 

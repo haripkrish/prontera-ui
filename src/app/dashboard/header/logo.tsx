@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import logo from './prontera_logo.png'
+import logo from '../../assets/images/prontera_logo.png'
+
 const Logo = () => {
    
     return (
